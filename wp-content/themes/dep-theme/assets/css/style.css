@@ -1,0 +1,133 @@
+/* Post Content */
+.post-content p {
+    font-size: 14px;
+    line-height: 2rem;
+    margin-top: 0.5rem;
+}
+
+/* Advertiments */
+
+/* Add Banner Group 1 */
+/* Ads Wrapper */
+.bannder-ad-wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.g img {
+    height: 100% !important;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Start Ads Placeholder */
+.ads-placeholder-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #ecf0f1;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #7f8c8d;
+}
+
+.ads-placeholder-title {
+    font-size: 12px;
+}
+
+.ads-placeholder-contact {
+    font-size: 10px;
+}
+
+.ads-placeholder-contact span::after {
+    content: ' |  ';
+}
+
+.ads-placeholder-contact span:last-child:after {
+    content: '';
+}
+
+/* End Ads Placeholder */
+
+/* Start Logo Banner Ads */
+.logo-banner-ads-placeholder {
+    width: 728px;
+    height: 90px;
+}
+
+.logo-banner-ads .g-1 {
+    height: 100%;
+}
+
+.logo-banner-ads .g a {
+    width: 728px;
+    height: 90px;
+}
+
+/* End Logo Banner Ads */
+
+/* Start Post Ads Advertisment */
+.post-ad-placeholder {
+    width: 100%;
+    height: 48px;
+}
+
+.post-ads-wrapper .g a {
+    height: 48px;
+    display: block;
+}
+
+/* End Post Ads Advertisment */
+
+/* Start Feature Advertisment */
+.feature-ads-wrapper {
+    margin-top: 1rem;
+}
+
+.feature-ad-placeholder {
+    height: 250px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.feature-ads-placeholder-title {
+    font-size: 16px;
+}
+
+.feature-ads-placeholder-contact span {
+    font-size: 14px;
+    display: block;
+}
+
+/* End Feature Advertisment */
+
+/* =============== Media Query =============== */
+/* Medium Size (md) */
+@media (min-width: 768px) {
+    .post-ad-placeholder {
+        height: 80px;
+    }
+}
+
+/* Large Size (lg) */
+@media (min-width: 1024px) {
+    .post-content p {
+        font-size: 16px;
+        margin-top: 1rem;
+    }
+
+    .ads-placeholder-title {
+        font-size: 18px;
+    }
+
+    .ads-placeholder-contact {
+        font-size: 14px;
+    }
+
+    .post-ad-placeholder {
+        height: 90px;
+    }
+}
